@@ -14,6 +14,12 @@
     "rising": "api/home2/rising",
     "hidden_gems": "api/home2/hiddenGems"
   },
+  "query_params": {
+    "manga_page_id": "id",
+    "chapters_manga_id": "mangaId",
+    "read_manga_id": "mangaId",
+    "read_chapter_id": "chapterId"
+  },
   "fields": {
     "cover_path": ["largeImage", "poster.largeImage", "image"],
     "scanlator_name": ["scanlatorName", "scanlationManga.name", "scanlator.name"],
