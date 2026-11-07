@@ -18,17 +18,19 @@
     "manga_page_id": "id",
     "chapters_manga_id": "mangaId",
     "read_manga_id": "mangaId",
-    "read_chapter_id": "chapterId"
+    "read_chapter_id": "chapterId",
+    "search_query": "q",
+    "search_filter": "filter_by",
+    "search_page": "page",
+    "search_per_page": "per_page",
+    "search_sort": "sort_by"
   },
   "fields": {
     "cover_path": ["largeImage", "poster.largeImage", "image"],
-    "scanlator_name": ["scanlatorName", "scanlationManga.name", "scanlator.name"],
+    "scanlator_name": ["scanlatorName", "scanlationManga.name", "scanlator.name", "group.name"],
     "page_image": "image",
     "manga_page_wrapper": "mangaPage"
   },
-  "cdn_mirrors": [
-    "https://mirror1.atsu.moe/",
-    "https://mirror2.atsu.moe/"
-  ],
+  "cdn_mirrors": [],
   "min_app_version": 1
 }
