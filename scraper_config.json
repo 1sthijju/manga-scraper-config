@@ -1,0 +1,28 @@
+{
+  "api_base": "https://atsu.moe/",
+  "cdn_prefix": "https://cdn.atsu.moe/",
+  "endpoints": {
+    "manga_page": "api/manga/page",
+    "all_chapters": "api/manga/allChapters",
+    "read_chapter": "api/read/chapter",
+    "search": "collections/manga/documents/search",
+    "filters": "api/explore/availableFilters",
+    "popular": "api/home2/popular",
+    "recent": "api/home2/recentlyUpdated",
+    "hot": "api/home2/hotUpdates",
+    "top_rated": "api/home2/topRated",
+    "rising": "api/home2/rising",
+    "hidden_gems": "api/home2/hiddenGems"
+  },
+  "fields": {
+    "cover_path": ["largeImage", "poster.largeImage", "image"],
+    "scanlator_name": ["scanlatorName", "scanlationManga.name", "scanlator.name"],
+    "page_image": "image",
+    "manga_page_wrapper": "mangaPage"
+  },
+  "cdn_mirrors": [
+    "https://mirror1.atsu.moe/",
+    "https://mirror2.atsu.moe/"
+  ],
+  "min_app_version": 1
+}
